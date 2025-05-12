@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+    <style>
+
+      
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <font face="phetsarath OT">
+        <div class=" bg-danger text-white">
+            <span>
+                <script>
+                        let n=new Date();
+                        A=n.getDay();
+                        d=Array("ອາທິດ","ຈັນ","ອັງຄານ","ພຸດ","ພະຫັດ","ສຸກ","ເສົາ");
+                        D=n.getDate();
+                        M=n.getMonth()+1;
+                        Y=n.getFullYear();
+                    document.write("ມື້ນີ້ແມ່ນວັນ: " +d[A]+"<br>"+"ວັນທີເດືອນປີ: " +D+"/"+M+"/"+Y);
+                       
+                </script>
+            <marquee behavior="alternate" onmouseover="this.stop()" onmouseout="this.start()">
+                <span><h2>ຍິນດີຕ້ອນຮັບເຂົ້າສູ່ໜ້າເວັບໄຊຣ໌ ແຂວງອັດຕະປື</h2></span>
+            </marquee>
+        </div>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-light mb-3">
+                <div  class="container-fluid">
+                        
+                    <a class="navbar-link" href=""><img src="photo/ໂລໂກ້1.png" style="width:45%;max-height:15%"></a>
+                
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NAV">
+                    <span class="navbar-toggler-icon bg-secondary"></span>
+                    </button>
+
+                <div class="collapse navbar-collapse" id="NAV">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a id="NAV" class="nav-link active" href="index.html"><i class="bi bi-house-fill"></i>ໜ້າຫຼັກ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="NAV" class="nav-link active" href="ປະຫວັດ.html">ປະຫວັດຄວາມເປັນມາແລະທີ່ຕັ້ງ</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a id="NAV" class="nav-link active" href="ເມືອງ.html">ບັນດາເມືອງ</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class=" text-danger nav-link dropdown-toggle " href="#" 
+                            role="button" data-bs-toggle="dropdown">ແຫຼ່ງທອງທ່ຽວ</a>
+
+                                <ul class="dropdown-menu bg-info">
+
+                                <li><a class="dropdown-item" href="ຫນອງຟ້າ.html">ໜອງຟ້າ</a></li>
+                                <li><a class="dropdown-item" href="ຕາດຈໍ.html">ຕາດຈໍ</a></li>
+                                <li><a class="dropdown-item" href="ວັດສະແຄະ.html">ວັດສະແຄະ</a></li>
+                                <li><a class="dropdown-item" href="ວັດທາດເຈົ້າໄຊເສດຖາ.html">ວັດທາດເຈົ້າໄຊເຊດຖາ</a></li>
+                                <li><a class="dropdown-item" href="ຕາດແຊພະ.html">ຕາດແຊພະ</a></li>
+                                <li><a class="dropdown-item" href="ລູກສອນໄຟ.html">ລູກສອນໄຟ</a></li>
+                                <li><a class="dropdown-item" href="ຕາດແຊປ້ອງໄລ.html">ຕາດແຊປ້ອງໄລ</a></li>
+                                </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a id="NAV" class="nav-link active" href="ແຜ່ນທີ່.html">ແຜ່ນທີ່</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="NAV" class="nav-link active" href="ຜູ້ພັດທະນາເວັບ.html"><i class="bi bi-person-fill"></i>ຜູ້ພັດທະນາເວັບ</a>
+                        </li>
+                    </ul>
+                </div>
+                </div><hr>
+            </nav>
+
+            <div class="card">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="carousel slide" data-bs-ride="carousel" id="demo">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                                <img src="photo/ທ່ຽວ.png" style="width:100%;height:100%">
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="photo/ທາດໄຊເສດຖາເລືອນ.png" style="width:100%;height:100%">
+                                <div class="carousel-caption">
+                                    <h3>ວັດທາດເຈົ້າໄຊຍະເສດຖາ</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="photo/ຫນອງຟ້າເລືອນ.png" style="height:100%; width:100%">
+                                <div class="carousel-caption">
+                                    <h3>ຫນອງຟ້າ</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="photo/ຕາດແຊປ້ອງໄລເລືອນ.png" style="height:100%; width:100%">
+                                <div class="carousel-caption">
+                                    <h3>ຕາດແຊປອງໄລ</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="photo/ລູກສອນໄຟເລືອນ.png" style="width:100%;height:100%">
+                                <div class="carousel-caption">
+                                   <h3>ລູກສອນໄຟ</h3> 
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="photo/ວັດສະແຄະເລືອນ.png" style=" height:10%0; width:100%">
+                                <div class="carousel-caption">
+                                    <h3>ວັດສະແຄະ</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="photo/ຕາດແຊພະເລືອນ.png" style="width:100%;height:100%">
+                                <div class="carousel-caption">
+                                    <h3>ຕາດແຊພະ</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="photo/ຕາດຈໍເລືອນ.png" style="height:100%; width:100%">
+                                <div class="carousel-caption">
+                                    <h3>ຕາດຈໍ</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>ເລື່ອນ
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        ເລື່ອນ<span class="carousel-control-next-icon"></span>
+                        </button>
+
+                    </div>
+                </div>
+                    
+                        <div class="col-lg-5">
+
+                            <h3><br>1.ທີ່ຕັ້ງຂອງແຂວງອັດຕະປື</h3>
+                            <p> &emsp;&emsp; ອັດຕະປືຕັ້ງຢູ່ພາກໃຕ້ຂອງລາວ ທິດເໜືອຕິດກັບແຂວງເຊກອງ ມີເສັ້ນທາງເຊື່ອມຕໍ່ອັດຕະປື-ເຊກອງ, ທາງຕາເວັນຕົກຕິດກັບຈຳປາສັກມີເສັ້ນທາງເຊື່ອມຕໍ່ສອງສາຍຄື:
+                                ເສັ້ນທາງປະທຸມພອນ-ສະຫນາມໄຊ ແລະ ທາງຜ່ານເຂືອນໄຟຟ້າຫ້ວຍເຮາະ, ທາງດ້ານທິດຕາເວັນອອກມີພູເຂົາແຍກອັດຕະປື ອອກຈາກຫວຽດນາມມີເສັ້ນທາງເຊື່ອມຕໍ່
+                                ອັດຕະປື-ພູເກືອ-ຫວຽດນາມ, ທາງທິດໃຕ້ຕິດກັບກຳປູເຈຍມີນ້ຳເຊກອງເປັນເສັ້ນທາງເຊື່ອມຕໍ່  ປັດຈູບັນເປັນເຂດສາມຫລຽມພັດທະນາເສດຖະກິດ ລະຫວ່າງລາວ-ຫວຽດ
+                                ນາມ-ກຳປູເຈຍຈະກາຍເປັນເຂດພັດທະນາສົ່ງເສີ່ມການຄ້າ ແລະ ການທ່ອງທ່ຽວໃນອະນຸພາກພື້ນທີ່ຕິດພັນກັບທຳມະຊາດ ແລະ ວັດທະນະທຳສະຖານທີທ່ອງທ່ຽວບ່ອນໜຶ່ງທີ່ສວຍງາມ.
+                                </p>
+                            <h3>2.ເນື້ອທີ່ ແລະ ແມ່ນ້ຳ</h3>
+                            <p> &emsp;&emsp; ແຂວງອັດຕະປືມີເນື້ອທີ່ປະມານ:10,320 ກມ ແມ່ນນ້ຳຈັດສາຍ: ເຊກອງ. ເຊກະໝານ, ເຊປຽນ, ເຊຄຳພໍ, ເຊຊູ ແລະ ນ້ຳກົງ
+                            </p>
+                            <center>
+                                <h2>ຄຳຂັວນຂອງແຂວງອັດຕະປື</h2>
+                            </center>
+                            <div class="row">
+                                <div class="col-lg-2">
+                                </div>
+                                <div class="col-lg-4">
+                                        <h3>“ລຳນ້ຳໃສ<br>
+                                            ທ່ອງທ່ຽວໜອງຟ້າ <br>
+                                            ໄຫວ້ພຣະອົງແສນ <br>
+                                             </h3>
+                                </div>
+                                <div class="col-lg-1"></div>
+                                <div class="col-lg-4">
+                                    <h3> ປ່າໄມ້ຂຽວ <br>
+                                        ຊົມຜາຮຽງຊານໄຊ<br>
+                                        ພັກແດນສາມັກຄີ”</h3>
+                                    </h3>
+                                </div>
+                                <div class="col-lg-1">
+                                </div>
+                            </div>
+                        </div>
+            </div><br>
+            </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <center>
+                            <div class="footer-box  bg-info">
+                                <div class="headinga">
+                                    <h3><br>ທີ່ຢູ່ປັດຈຸບັນ</h3><b><hr></b>
+                                    <span>ບ້ານໂນສະຫວາງ ເມືອງວຽງຄຳ ແຂວງວຽງຈັນ</span>
+                                    <p>kaithongkinnavongsone9847@gmail.com</p>
+                                </div><hr>
+        
+                                <h3><b><i class="bi bi-megaphone"></i>ຜູ້ໃດສົນໃຈໄປທອງທ່ຽວສອບຖາມໄດ້</b></h3>
+        
+                                <h2><i style="color:rgb(111, 245, 21)" class="bi bi-phone-fill"></i></h2><h4>ຕິດຕໍ່ຫາເຮົາໄດ້</h4>
+        
+                                        <h5><i style="color:blue" class="bi bi-telephone-fill"></i>+856|2096986728</h5>
+        
+                                        <h3><a href="#"><i style=" color:rgb(21, 21, 241)" class="bi bi-facebook"></i></a></h3>
+                                        <h3><a href="#"><i style=" color:rgb(21, 255, 177)" class="bi bi-whatsapp"></i></a></h3>
+                                        <h3><a href="#"><i style=" color:rgb(19, 19, 26)" class="bi bi-tiktok"></i></a></h3>
+                            </div>
+                            </center>
+                        </div>
+                    </div>
+            
+             
+        </div>
+    </font>
+</body >
+
+</html>

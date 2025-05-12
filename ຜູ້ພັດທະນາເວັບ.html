@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+    <style>
+        
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <font face="phetsarath OT">
+        <div class=" bg-danger text-white">
+            <script>
+                    let n=new Date();
+                    A=n.getDay();
+                    d=Array("ອາທິດ","ຈັນ","ອັງຄານ","ພຸດ","ພະຫັດ","ສຸກ","ເສົາ");
+                    D=n.getDate();
+                    M=n.getMonth()+1;
+                    Y=n.getFullYear();
+                document.write("ມື້ນີ້ແມ່ນວັນ: " +d[A]+"<br>"+"ວັນທີເດືອນປີ: " +D+"/"+M+"/"+Y);
+                   
+            </script>
+            <marquee behavior="alternate" onmouseover="this.stop()" onmouseout="this.start()">
+                <span><h2>ຍິນດີຕ້ອນຮັບເຂົ້າສູ່ໜ້າເວັບໄຊຣ໌ ແຂວງອັດຕະປື</h2></span>
+            </marquee>
+        </div>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-light mb-3">
+                <div class="container-fluid">
+                    
+                    <a class="navbar-link" href=""><img src="photo/ໂລໂກ້1.png" style="width:45%;max-height:15%"></a>
+                
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NAV">
+                    <span class="navbar-toggler-icon bg-secondary"></span>
+                    </button>
+
+                <div class="collapse navbar-collapse" id="NAV">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a id="NAV" class="nav-link active" href="index.html"><i class="bi bi-house-fill"></i>ໜ້າຫຼັກ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="NAV" class="nav-link active" href="ປະຫວັດ.html">ປະຫວັດຄວາມເປັນມາແລະທີ່ຕັ້ງ</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a id="NAV" class="nav-link active" href="ເມືອງ.html">ບັນດາເມືອງ</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class=" text-danger nav-link dropdown-toggle " href="#" 
+                            role="button" data-bs-toggle="dropdown">ແຫຼ່ງທອງທ່ຽວ</a>
+
+                                <ul class="dropdown-menu bg-info">
+
+                                <li><a class="dropdown-item" href="ຫນອງຟ້າ.html">ໜອງຟ້າ</a></li>
+                                <li><a class="dropdown-item" href="ຕາດຈໍ.html">ຕາດຈໍ</a></li>
+                                <li><a class="dropdown-item" href="ວັດສະແຄະ.html">ວັດສະແຄະ</a></li>
+                                <li><a class="dropdown-item" href="ວັດທາດເຈົ້າໄຊເສດຖາ.html">ວັດທາດເຈົ້າໄຊເຊດຖາ</a></li>
+                                <li><a class="dropdown-item" href="ຕາດແຊພະ.html">ຕາດແຊພະ</a></li>
+                                <li><a class="dropdown-item" href="ລູກສອນໄຟ.html">ລູກສອນໄຟ</a></li>
+                                <li><a class="dropdown-item" href="ຕາດແຊປ້ອງໄລ.html">ຕາດແຊປ້ອງໄລ</a></li>
+                                </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a id="NAV" class="nav-link active" href="ແຜ່ນທີ່.html">ແຜ່ນທີ່</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="NAV" class="nav-link active" href="ຜູ້ພັດທະນາເວັບ.html"><i class="bi bi-person-fill"></i>ຜູ້ພັດທະນາເວັບ</a>
+                        </li>
+                    </ul>
+                </div>
+
+                </div><hr>
+            </nav>
+            
+            <div class="row"> 
+                <div class="col-lg-3">
+                        <img id="A" class="card-img-top" src="photo/ເວັບ.jpg" style="width:100%">
+                </div>
+                <div class="col-lg-3">
+                        <img id="A" class="card-img-top" src="photo/ເວັບ1.jpg" style="width:100%">
+                </div>
+                
+                <div class="col-lg-6">
+                    <div  class="bg-success">
+                    <center>
+                        <div class="card-header bg-success text-light">
+                            <h2 id="a" class="card-top">ຂໍ້ມູນຂອງຜູ້ຂຽນ ແລະ ຜູພັດທະນາເວັບໄຊຣ໌</h2>
+                        </div>
+                        <div class="card-body">  
+                            <div class="bg-info text-white card-img-top ">
+                               <h2><i class="bi bi-person-square"></i></h2> <span>ທ້າວ ໄກ່ທອງກິນນະວົງສອນ</span>
+                                <span>ວັດເດືອນປີເກີດ: 18/3/2006</span><hr>
+                               <h2><i class="bi bi-house-fill"></i></h2><h3>ເກີດທີບ້ານ</h3>
+                               <span>ບ້ານນ້ຳກົງ, ເມືອງສະຫນາມໄຊ, ແຂວງອັດຕະປື</span><hr>
+
+                               <h2><i class="bi bi-house"></i></h2><h3>ສຶກສາທີ່</h3>
+                               <p>ວິທະຍາໄລ BCT<br>Buses College Information Tecnology </p>
+                            </div>
+                         
+                        </div>
+                    </center>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                    <div class="col-lg-12">
+                        <center>
+                        <div class="footer-box bg-secondary text-white">
+                            <div class="headinga">
+                                <h3><br>ທີ່ຢູ່ປັດຈຸບັນ</h3><b><hr></b>
+                                <span>ບ້ານໂນສະຫວາງ ເມືອງວຽງຄຳ ແຂວງວຽງຈັນ</span>
+                                <p>kaithongkinnavongsone9847@gmail.com</p>
+                            </div><hr>
+    
+                            <h3><b><i class="bi bi-megaphone"></i>ຜູ້ໃດສົນໃຈໄປທອງທ່ຽວສອບຖາມໄດ້</b></h3>
+    
+                            <h2><i style="color:rgb(111, 245, 21)" class="bi bi-phone-fill"></i></h2><h4>ຕິດຕໍ່ຫາເຮົາໄດ້</h4>
+    
+                                    <h5><i style="color:blue" class="bi bi-telephone-fill"></i>+856|2096986728</h5>
+    
+                                    <h3><a href="#"><i style=" color:rgb(21, 21, 241)" class="bi bi-facebook"></i></a></h3>
+                                    <h3><a href="#"><i style=" color:rgb(21, 255, 177)" class="bi bi-whatsapp"></i></a></h3>
+                                    <h3><a href="#"><i style=" color:rgb(227, 227, 241)" class="bi bi-tiktok"></i></a></h3>
+                        </div>
+                        </center>
+                    </div>
+                </div>
+
+        </div>
+    </font>
+</body >
+
+</html>
